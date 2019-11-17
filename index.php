@@ -202,7 +202,6 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 	#playiconbutton {
-		margin-left: 5px;
 		background-color: transparent;
 		border-color: transparent;
 	}
@@ -227,7 +226,6 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 	#playiconbutton2 {
-		margin-left: 5px;
 		background-color: transparent;
 		border-color: transparent;
 	}
