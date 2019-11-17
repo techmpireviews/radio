@@ -87,7 +87,7 @@
 			border-color: #000000;
 			color: #000000;
 			padding: 17px;
-			-webkit-clip-path: circle(30px at 31px 53px);
+			-webkit-clip-path: circle(30px at 34px 53px);
 			cursor: pointer;
 			transition: 0.1s ease-in-out;
 		}
