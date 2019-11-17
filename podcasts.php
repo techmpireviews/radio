@@ -9,10 +9,6 @@
     <title>Linton Radio App</title>
     <style type="text/css">
 
-    	body {
-    		background-color: #000000;
-    	}
-
 		#footer {
 			position: absolute;
 			top: 7px;
@@ -55,7 +51,7 @@
 			width: 100%;
 			height: 100%;
 			-webkit-clip-path: circle(20px at right 47px top 30px);
-			transition: 0.5s;
+			transition: 0.1s;
 			z-index: -1;
 		}
 
@@ -72,9 +68,9 @@
 			padding-top: 20px;
 		}
 
-		li > a {text-decoration: none; color: #000000;}
+		li > a {text-decoration: none; color: #ffffff;}
 
-		li > a:active {text-decoration: none; color: #000000;}
+		li > a:active {text-decoration: none; color: #ffffff;}
 
 		#closediv {
 			position: absolute;
@@ -103,9 +99,19 @@
 
 		#menubg {
 			position: absolute;
-			background-image: linear-gradient(to bottom right, #FFF414, #FFFA86);
+			background-image: linear-gradient(to bottom right, #E01313, #E01313);
 			width: 100%;
 			height: 100%;
+			z-index: -10;
+		}
+
+		#menubg1 {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-image: linear-gradient(to bottom right, #FFF414, #FFFD78);
+			width: 100%;
+			height: 850px;
 			z-index: -10;
 		}
 
@@ -125,8 +131,7 @@
 			top: 50%;
         	left: 50%;
         	transform: translate(-50%, -45%);
-			background-color: #000000;
-			z-index: 60;
+			z-index: 50;
 		}
 
 		#main {
@@ -137,6 +142,7 @@
     <title>Mobile</title>
 </head>
 <body>
+	<div id="menubg1"></div>
 	<h1 style="color: #000000; margin-top: 6px;
 position: absolute; left: 50%; transform: translate(-50%); font-size: 35px; font-family: sans-serif; z-index: -5; width: 160px; border: solid 1.5px; border-color: transparent; border-bottom-color: #000000; text-align: center;">Podcasts</h1>
 <div style="width: 100%; height: 70px; position: absolute; top: 0px; left: 0px; background-color: #ffffff; z-index: -30;" id="topbg"></div>
@@ -238,8 +244,6 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 35px; font
     margin-right: -50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     }
     </style>
 <main id="main">
