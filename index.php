@@ -242,7 +242,7 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
     <source src="https:\/\/klps.out.airtime.pro\/klps_a" type="audio/ogg">
 </audio>
 <script type="text/javascript">
-    var klhsaudio = document.getElementById("klhsaudio");
+    var klhsaudio = new Audio('https://ice10.securenetsystems.net/KLHS?playSessionID=ECE0C2F5-FBA6-7E28-D207B2E33E125379');
 
     function klhsPlay() {
     klhsaudio.play();
@@ -253,7 +253,7 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
     }
 </script>
 <script type="text/javascript">
-    var klpsaudio = document.getElementById("klhsaudio2");
+	var kplsaudio = new Audio('https:\/\/klps.out.airtime.pro\/klps_a');
 
     function klpsPlay() {
     klpsaudio.play();
