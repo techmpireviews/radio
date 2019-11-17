@@ -66,9 +66,9 @@
 			padding-top: 20px;
 		}
 
-		li > a {text-decoration: none; color: #ffffff;}
+		li > a {text-decoration: none; color: #000000;}
 
-		li > a:active {text-decoration: none; color: #ffffff;}
+		li > a:active {text-decoration: none; color: #000000;}
 
 		#closediv {
 			position: absolute;
@@ -120,11 +120,11 @@
     <div id="closediv">
 	<span>
 		<ul id="closeul">
-			<li style="color: #000000" class="font"><a href="">Home</a></li>
-			<li style="color: #000000" class="font"><a href="">Basketball Games</a></li>
-			<li style="color: #000000" class="font"><a href="">Football Games</a></li>
-			<li style="color: #000000" class="font"><a href="">Baseball Games</a></li>
-			<li style="color: #000000" class="font"><button id="close" onclick="close2()">x</button></li>
+			<li class="font"><a href="">Home</a></li>
+			<li class="font"><a href="">Basketball Games</a></li>
+			<li class="font"><a href="">Football Games</a></li>
+			<li class="font"><a href="">Baseball Games</a></li>
+			<li class="font"><button id="close" onclick="close2()">x</button></li>
 		</ul>
 	</span>
     </div>
