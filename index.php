@@ -5,7 +5,7 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="/package.json">
     <link rel="apple-touch-icon" sizes="512x512" href="images/goldicon.png">
-    <link rel="icon" href="images/goldicon.png">	
+    <link rel="icon" href="images/goldlogo.png">	
     <style type="text/css">
 
 		#footer {
@@ -26,13 +26,13 @@
 			background-color: #ffffff;
 			font-size: 40px;
 			box-shadow: none;
-			border: solid 2px;
-			border-color: #000000;
+			border: 0px;
+			border-color: transparent;
 			padding-left: 13px;
 			padding-right: 13px;
 			padding-top: 0px;
 			padding-bottom: 5px;
-			border-radius: 120px;
+			clip-path: circle();
 			color: #000000;
 			transition: 0.1s ease-in-out;
 			cursor: pointer;
