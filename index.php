@@ -173,13 +173,114 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 			document.getElementById("footer").style.visibility = "visible";
 		}
 </script>
+<style type="text/css">
+	#radiocontent {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: auto;
+		height: auto;
+	}
+
+	#klhsimg {
+		width: 125px;
+		height: auto;
+	}
+	#playicon {
+		width: 40px;
+		height: auto;
+	}
+	#pauseicon {
+		width: 40px;
+		height: auto;
+		background-color: transparent;
+		border-color: transparent;
+	}
+	#playiconbutton {
+		margin-left: 5px;
+		background-color: transparent;
+		border-color: transparent;
+	}
+	#pauseiconbutton {
+		margin-left: -5px;
+		background-color: transparent;
+		border-color: transparent;
+	}
+
+	#klpsimg {
+		width: 125px;
+		height: auto;
+	}
+	#playicon2 {
+		width: 40px;
+		height: auto;
+	}
+	#pauseicon2 {
+		width: 40px;
+		height: auto;
+		background-color: transparent;
+		border-color: transparent;
+	}
+	#playiconbutton2 {
+		margin-left: 5px;
+		background-color: transparent;
+		border-color: transparent;
+	}
+	#pauseiconbutton2 {
+		margin-left: -5px;
+		background-color: transparent;
+		border-color: transparent;
+	}
+</style>
+<script>
+    var klhsaudio = document.getElementById("klhsaudio");
+
+    function klhsPlay() {
+    klhsaudio.play();
+    }
+
+    function klhsPause() {
+    klhsaudio.pause();
+    }
+
+    var klpsaudio = document.getElementById("klhsaudio2");
+
+    function klpsPlay() {
+    klpsaudio.play();
+    }
+
+    function klpsPause() {
+    klpsaudio.pause();
+    }
+</script>
+<audio id="klhsaudio">
+    <source src="https://ice10.securenetsystems.net/KLHS?playSessionID=ECE0C2F5-FBA6-7E28-D207B2E33E125379" type="audio/ogg">
+</audio>
+<audio id="klhsaudio2">
+    <source src="https:\/\/klps.out.airtime.pro\/klps_a" type="audio/ogg">
+</audio>
 <main id="main">
 	<div id="radiocontent">
-		<span id="klhs"></span>
+		<span id="klhs">
+			<img id="klhsimg" src="images/klhsimg.png">
+			<span id="klhsicons">
+				<br>
+				<button id="playiconbutton" onclick="klhsPlay()" type="button"><img id="playicon" src="images/play.png"></button>
+    			<button id="pauseiconbutton" onclick="klhsPause()" type="button"><img id="pauseicon" src="images/pause.png"></button>
+    		</span>
+		</span>
 		<br>
 		<br>
 		<br>
-		<span id="kpls"></span>
+		<span id="kpls">
+			<img id="klhsimg" src="images/klpsimg.png">
+			<span id="kplsicons">
+				<br>
+				<button id="playiconbutton2" onclick="klhsPlay()" type="button"><img id="playicon2" src="images/play.png"></button>
+    			<button id="pauseiconbutton2" onclick="klhsPause()" type="button"><img id="pauseicon2" src="images/pause.png"></button>
+    		</span>
+		</span>
 	</div>
 </main>
 </body>
