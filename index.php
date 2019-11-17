@@ -19,7 +19,7 @@
 			z-index: -1;
 		}
 
-		button:focus {
+		button:hover {
 			outline: none;
 		}
 
@@ -39,7 +39,7 @@
 			cursor: pointer;
 		}
 
-		#open:focus {
+		#open:hover {
 			background-color: #000000;
 			color: #ffffff;
 			transform: rotate(150deg);
