@@ -87,7 +87,7 @@
 			border-color: #000000;
 			color: #000000;
 			padding: 17px;
-			-webkit-clip-path: circle(28px at 31px 53px);
+			-webkit-clip-path: circle(30px at 31px 53px);
 			cursor: pointer;
 			transition: 0.1s ease-in-out;
 		}
@@ -125,7 +125,7 @@
 			<li class="font"><a href="">Home</a></li>
 			<li class="font"><a href="">Radio</a></li>
 			<li class="font"><a href="">Podcasts</a></li>
-			<li class="font"><button id="close" onclick="close2()">x</button></li>
+			<li class="font"><button id="close" href="void(0)" onclick="close2()">x</button></li>
 		</ul>
 	</span>
     </div>
@@ -133,7 +133,7 @@
 <footer id="footer">
     <div id="buttondiv">
 	<span id="buttonspan">
-		<button id="open" onclick="open1()">☰</button>
+		<button href="void(0)" id="open" onclick="open1()">☰</button>
 	</span>
     </div>
 </footer>
