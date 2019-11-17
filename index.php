@@ -19,7 +19,7 @@
 			z-index: -1;
 		}
 
-		button:hover {
+		button::active {
 			outline: none;
 		}
 
@@ -39,7 +39,7 @@
 			cursor: pointer;
 		}
 
-		#open:hover {
+		#open::active {
 			background-color: #000000;
 			color: #ffffff;
 			transform: rotate(360deg);
@@ -92,7 +92,7 @@
 			transition: 0.1s ease-in-out;
 		}
 
-		#close:focus {
+		#close::active {
 			background-color: #000000;
 			color: #ffffff;
 		}
