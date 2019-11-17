@@ -237,7 +237,7 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 35px; font
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border-radius: 15px;
+    border-radius: 25px;
     }
     </style>
 <main id="main">
