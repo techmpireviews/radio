@@ -150,8 +150,7 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
     <div id="closediv">
 	<span>
 		<ul id="closeul">
-			<li class="font"><a href="index.php">Home</a></li>
-			<li class="font"><a href="radio.php">Radio</a></li>
+			<li class="font"><a href="index.php">Radio</a></li>
 			<li class="font"><a href="podcasts.php">Podcasts</a></li>
 			<li class="font"><button id="close" href="void(0)" onclick="close2()">x</button></li>
 		</ul>
