@@ -6,7 +6,7 @@
     <link rel="manifest" href="/package.json">
     <link rel="apple-touch-icon" sizes="512x512" href="images/goldicon.png">
     <link rel="icon" href="images/goldicon.png">	
-	<title>Linton Radio App</title>
+    <title>Linton Radio App</title>
     <style type="text/css">
 
 		#footer {
@@ -145,7 +145,7 @@
 		}
 
 		function close2() {
-			document.getElementById("header").style.webkitClipPath = "circle(27px at right 46px top 46px)";
+			document.getElementById("header").style.webkitClipPath = "-webkit-clip-path: circle(20px at right 47px top 45px);";
 			document.getElementById("footer").style.zIndex = "-1";
 			document.getElementById("footer").style.visibility = "visible";
 		}
