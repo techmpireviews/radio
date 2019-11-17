@@ -99,7 +99,7 @@
 
 		#menubg {
 			position: absolute;
-			background-image: linear-gradient(to bottom right, #E01313, #E01313);
+			background-image: linear-gradient(to bottom right, #B40C0C, #E01313);
 			width: 100%;
 			height: 100%;
 			z-index: -10;

@@ -99,7 +99,7 @@
 
 		#menubg {
 			position: absolute;
-			background-image: linear-gradient(to bottom right, #E01313, #E01313);
+			background-image: linear-gradient(to bottom right, #B40C0C, #E01313);
 			width: 100%;
 			height: 100%;
 			z-index: -10;
@@ -144,7 +144,7 @@
 <body>
 	<div id="menubg1"></div>
 	<h1 style="color: #000000; margin-top: 4px;
-position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font-family: sans-serif; z-index: -5; width: 120px; border: solid 1.5px; border-color: transparent; border-bottom-color: #000000; text-align: center;">Home</h1>
+position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font-family: sans-serif; z-index: -5; width: 120px; border: solid 1.5px; border-color: transparent; border-bottom-color: #000000; text-align: center;">Radio</h1>
 <header id="header">
     <div id="menubg"></div>
     <div id="closediv">
