@@ -126,7 +126,7 @@
         	left: 50%;
         	transform: translate(-50%, -45%);
 			background-color: #000000;
-			z-index: 50;
+			z-index: 60;
 		}
 
 		#main {
@@ -137,8 +137,8 @@
     <title>Mobile</title>
 </head>
 <body>
-<h1 style="color: #000000; margin-top: 4px;
-position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font-family: sans-serif; z-index: -5; width: 120px; border: solid 1.5px; border-color: transparent; border-bottom-color: #000000; text-align: center;">Home</h1>
+	<h1 style="color: #000000; margin-top: 6px;
+position: absolute; left: 50%; transform: translate(-50%); font-size: 35px; font-family: sans-serif; z-index: -5; width: 160px; border: solid 1.5px; border-color: transparent; border-bottom-color: #000000; text-align: center;">Podcasts</h1>
 <div style="width: 100%; height: 70px; position: absolute; top: 0px; left: 0px; background-color: #ffffff; z-index: -30;" id="topbg"></div>
 <header id="header">
     <div id="menubg"></div>
@@ -196,8 +196,60 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
         height: auto;
         z-index: -1;
         }
+
+        #pop {
+    font-size: 180%;
+    margin-top: 0px;
+    position: relative;
+    margin-left: -5%;
+    margin-right: -4%;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: white;
+    background: #852514;
+    z-index: -2;
+    }
+
+  .codep1 {
+   margin-top: 50px;
+  }
+
+  .codep2 {
+   margin-top: 10px;
+  }
+
+  .codep3 {
+   margin-top: 10px;
+  }
+
+  .codep4 {
+   margin-top: 10px;
+  }
+
+  .codep5 {
+   margin-top: 10px;
+  }
+
+    .fr {
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    }
     </style>
 <main id="main">
+	<div class="container">
+    <div class="codep1"><iframe class="fr" width="90%" height="123px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F566616237&amp;show_artwork=true&amp;auto_play=true&amp;show_playcount=true&amp;show_comments=true&amp;color=%23ff5500&amp;height=166&amp;width=482" class="embed-code-player__frame"></iframe></div>
+
+    <div class="codep2"><iframe class="fr" width="90%" height="123px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F547530678&amp;show_artwork=true&amp;auto_play=false&amp;show_playcount=true&amp;show_comments=true&amp;color=%23ff5500&amp;height=166&amp;width=648" class="embed-code-player__frame"></iframe></div>
+
+    <div class="codep3"><iframe class="fr" width="90%" height="123px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/520389990&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe></div>
+
+    <div class="codep4"><iframe class="fr" width="90%" height="123px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=false&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F432036180&amp;show_artwork=true&amp;auto_play=false&amp;show_playcount=true&amp;show_comments=true&amp;color=%23ff5500&amp;height=124&amp;width=634" class="embed-code-player__frame"></iframe></div>
+
+    <div class="codep5"><iframe class="fr" width="90%" height="123px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=false&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F399620457&amp;show_artwork=true&amp;auto_play=false&amp;show_playcount=true&amp;show_comments=true&amp;color=%23ff5500&amp;height=136&amp;width=482" class="embed-code-player__frame"></iframe></div>
+</div>
 </main>
 </body>
 </html>
