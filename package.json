@@ -1,0 +1,23 @@
+{
+  "short_name": "Linton Radio",
+  "name": "Linton Radio",
+  "icons": [
+    {
+
+      "src": "/images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "index.php",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/radio/",
+  "theme_color": "#6AC8F5"
+}
