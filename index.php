@@ -39,11 +39,6 @@
 			cursor: pointer;
 		}
 
-		#open:active {
-			background-color: #000000;
-			color: #ffffff;
-			transform: rotate(360deg);
-		}
 		header {
 			position: absolute;
 			top: 0px;
@@ -90,11 +85,6 @@
 			-webkit-clip-path: circle(30px at 31px 53px);
 			cursor: pointer;
 			transition: 0.1s ease-in-out;
-		}
-
-		#close:active {
-			background-color: #000000;
-			color: #ffffff;
 		}
 
 		#menubg {
