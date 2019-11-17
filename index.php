@@ -110,7 +110,7 @@
 
 		.font {
 			font-family: sans-serif;
-			font-size: 27px;
+			font-size: 35px;
 		}
 
 	</style>
