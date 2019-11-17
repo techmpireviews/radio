@@ -66,9 +66,9 @@
 			padding-top: 20px;
 		}
 
-		li > a {text-decoration: none;color: #ffffff;}
+		li > a {text-decoration: none; color: #ffffff;}
 
-		li > a:active {text-decoration: none;color: #ffffff;}
+		li > a:active {text-decoration: none; color: #ffffff;}
 
 		#closediv {
 			position: absolute;
@@ -97,7 +97,7 @@
 
 		#menubg {
 			position: absolute;
-			background-image: linear-gradient(to bottom right, #6AC8F5, #B1D9EB);
+			background-image: linear-gradient(to bottom right, #FFF414, #FFFA86);
 			width: 100%;
 			height: 100%;
 			z-index: -10;
