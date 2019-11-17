@@ -15,7 +15,7 @@
     }
   ],
   "orientation": "portrait",
-  "start_url": "start.php",
+  "start_url": "index.php",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/radio/",
