@@ -253,7 +253,7 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
     }
 </script>
 <script type="text/javascript">
-	var kplsaudio = new Audio('https:\/\/klps.out.airtime.pro\/klps_a');
+	var klpsaudio = new Audio('https://klps.out.airtime.pro//klps_a');
 
     function klpsPlay() {
     klpsaudio.play();
@@ -270,7 +270,8 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 			<span id="klhsicons">
 				<br>
 				<button id="playiconbutton" onclick="klhsPlay()" type="button"><img id="playicon" src="images/play.png"></button>
-    			<button id="pauseiconbutton" onclick="klhsPause()" type="button"><img id="pauseicon" src="images/pause.png"></button>
+    			<button id="pauseiconbutton" onclick="
+    			klhsPause()" type="button"><img id="pauseicon" src="images/pause.png"></button>
     		</span>
 		</span>
 		<br>
