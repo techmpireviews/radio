@@ -234,11 +234,11 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 	#klhsicons {
-		width: 116px;
+		width: 120px;
 		margin-left: 3px;
 	}
 	#klpsicons {
-		width: 116px;
+		width: 120px;
 		margin-left: 3px;
 	}
 </style>
