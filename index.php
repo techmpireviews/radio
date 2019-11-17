@@ -237,7 +237,13 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 </style>
-<script>
+<audio id="klhsaudio">
+    <source src="https://ice10.securenetsystems.net/KLHS?playSessionID=ECE0C2F5-FBA6-7E28-D207B2E33E125379" type="audio/ogg">
+</audio>
+<audio id="klhsaudio2">
+    <source src="https:\/\/klps.out.airtime.pro\/klps_a" type="audio/ogg">
+</audio>
+<script type="text/javascript">
     var klhsaudio = document.getElementById("klhsaudio");
 
     function klhsPlay() {
@@ -247,7 +253,8 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
     function klhsPause() {
     klhsaudio.pause();
     }
-
+</script>
+<script type="text/javascript">
     var klpsaudio = document.getElementById("klhsaudio2");
 
     function klpsPlay() {
@@ -258,12 +265,6 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
     klpsaudio.pause();
     }
 </script>
-<audio id="klhsaudio">
-    <source src="https://ice10.securenetsystems.net/KLHS?playSessionID=ECE0C2F5-FBA6-7E28-D207B2E33E125379" type="audio/ogg">
-</audio>
-<audio id="klhsaudio2">
-    <source src="https:\/\/klps.out.airtime.pro\/klps_a" type="audio/ogg">
-</audio>
 <main id="main">
 	<div id="radiocontent">
 		<span id="klhs">
@@ -281,8 +282,8 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 			<img id="klhsimg" src="images/klpsimg.png">
 			<span id="kplsicons">
 				<br>
-				<button id="playiconbutton2" onclick="klhsPlay()" type="button"><img id="playicon2" src="images/play.png"></button>
-    			<button id="pauseiconbutton2" onclick="klhsPause()" type="button"><img id="pauseicon2" src="images/pause.png"></button>
+				<button id="playiconbutton2" onclick="klpsPlay()" type="button"><img id="playicon2" src="images/play.png"></button>
+    			<button id="pauseiconbutton2" onclick="klpsPause()" type="button"><img id="pauseicon2" src="images/pause.png"></button>
     		</span>
 		</span>
 	</div>
