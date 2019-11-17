@@ -137,7 +137,7 @@
     <title>Mobile</title>
 </head>
 <body>
-<h1 style="color: #000000; margin-top: 4px;
+	<h1 style="color: #000000; margin-top: 4px;
 position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font-family: sans-serif; z-index: -5; width: 120px; border: solid 1.5px; border-color: transparent; border-bottom-color: #000000; text-align: center;">Home</h1>
 <div style="width: 100%; height: 70px; position: absolute; top: 0px; left: 0px; background-color: #ffffff; z-index: -30;" id="topbg"></div>
 <header id="header">
@@ -164,39 +164,21 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		function open1() {
 			document.getElementById("header").style.webkitClipPath = "circle(100%)";
 			document.getElementById("footer").style.zIndex = "-20";
-			document.getElementById("main").style.zIndex = "-50";
+			document.getElementById("main").style.visibility = "hidden";
 			document.getElementById("main").style.transition = "0s";
+			document.getElementById("header").style.transition = "0.4s";
 			document.getElementById("footer").style.visibility = "hidden";
 		}
 
 		function close2() {
 			document.getElementById("header").style.webkitClipPath = "circle(20px at right 44px top 35px)";
-			document.getElementById("main").style.zIndex = "50";
+			document.getElementById("main").style.visibility = "visible";
 			document.getElementById("footer").style.zIndex = "-1";
 			document.getElementById("main").style.transition = "1s";
+			document.getElementById("header").style.transition = "0.1s";
 			document.getElementById("footer").style.visibility = "visible";
 		}
 </script>
-<style>
-        #frame {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        border: 0px;
-        background-color: none;
-        z-index: 1;
-        }
-
-        #image {
-        width: 70%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: auto;
-        z-index: -1;
-        }
-    </style>
 <main id="main">
 </main>
 </body>

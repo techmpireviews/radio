@@ -164,16 +164,18 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 35px; font
 		function open1() {
 			document.getElementById("header").style.webkitClipPath = "circle(100%)";
 			document.getElementById("footer").style.zIndex = "-20";
-			document.getElementById("main").style.zIndex = "-50";
+			document.getElementById("main").style.visibility = "hidden";
 			document.getElementById("main").style.transition = "0s";
+			document.getElementById("header").style.transition = "0.4s";
 			document.getElementById("footer").style.visibility = "hidden";
 		}
 
 		function close2() {
 			document.getElementById("header").style.webkitClipPath = "circle(20px at right 44px top 35px)";
-			document.getElementById("main").style.zIndex = "50";
+			document.getElementById("main").style.visibility = "visible";
 			document.getElementById("footer").style.zIndex = "-1";
 			document.getElementById("main").style.transition = "1s";
+			document.getElementById("header").style.transition = "0.1s";
 			document.getElementById("footer").style.visibility = "visible";
 		}
 </script>
