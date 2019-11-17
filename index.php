@@ -188,6 +188,7 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 	}
 
 	#klhsimg {
+		margin-top: 30px;
 		width: 125px;
 		height: auto;
 	}
@@ -233,10 +234,12 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 	#klhsicons {
-		width: 200px;
+		width: 116px;
+		margin-left: 3px;
 	}
 	#klpsicons {
-		width: 200px;
+		width: 116px;
+		margin-left: 3px;
 	}
 </style>
 <audio id="klhsaudio">
@@ -272,23 +275,20 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		<span id="klhs">
 			<img id="klhsimg" src="images/klhsimg.png">
 			<div id="klpspos">
-				<span id="klhsicons">
+				<p id="klhsicons">
 					<button id="playiconbutton" onclick="klhsPlay()" type="button"><img id="playicon" src="images/play.png"></button>
     				<button id="pauseiconbutton" onclick="
     			klhsPause()" type="button"><img id="pauseicon" src="images/pause.png"></button>
-    			</span>
+    			</p>
     		</div>
 		</span>
-		<br>
-		<br>
-		<br>
 		<span id="kpls">
-			<img id="klhsimg" src="images/klpsimg.png">
+			<img id="klpsimg" src="images/klpsimg.png">
 			<div id="klhspos">
-				<span id="klpsicons">
+				<p id="klpsicons">
 					<button id="playiconbutton2" onclick="klpsPlay()" type="button"><img id="playicon2" src="images/play.png"></button>
     				<button id="pauseiconbutton2" onclick="klpsPause()" type="button"><img id="pauseicon2" src="images/pause.png"></button>
-    			</span>
+    			</p>
     		</div>
 		</span>
 	</div>
