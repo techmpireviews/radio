@@ -42,7 +42,7 @@
 		#open:hover {
 			background-color: #000000;
 			color: #ffffff;
-			transform: rotate(150deg);
+			transform: rotate(360deg);
 		}
 		header {
 			position: absolute;
