@@ -4,7 +4,7 @@
 	</script>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="/package.json">
-    <link rel="apple-touch-icon" sizes="512x512" href="images/icon.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="images/goldicon.png">
     <style type="text/css">
 
 		#footer {
