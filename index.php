@@ -206,7 +206,6 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 	#pauseiconbutton {
-		margin-left: -10px;
 		background-color: transparent;
 		border-color: transparent;
 	}
@@ -230,9 +229,14 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 		border-color: transparent;
 	}
 	#pauseiconbutton2 {
-		margin-left: -10px;
 		background-color: transparent;
 		border-color: transparent;
+	}
+	#klhsicons {
+		width: 200px;
+	}
+	#klpsicons {
+		width: 200px;
 	}
 </style>
 <audio id="klhsaudio">
@@ -267,23 +271,25 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 38px; font
 	<div id="radiocontent">
 		<span id="klhs">
 			<img id="klhsimg" src="images/klhsimg.png">
-			<span id="klhsicons">
-				<br>
-				<button id="playiconbutton" onclick="klhsPlay()" type="button"><img id="playicon" src="images/play.png"></button>
-    			<button id="pauseiconbutton" onclick="
+			<div id="klpspos">
+				<span id="klhsicons">
+					<button id="playiconbutton" onclick="klhsPlay()" type="button"><img id="playicon" src="images/play.png"></button>
+    				<button id="pauseiconbutton" onclick="
     			klhsPause()" type="button"><img id="pauseicon" src="images/pause.png"></button>
-    		</span>
+    			</span>
+    		</div>
 		</span>
 		<br>
 		<br>
 		<br>
 		<span id="kpls">
 			<img id="klhsimg" src="images/klpsimg.png">
-			<span id="kplsicons">
-				<br>
-				<button id="playiconbutton2" onclick="klpsPlay()" type="button"><img id="playicon2" src="images/play.png"></button>
-    			<button id="pauseiconbutton2" onclick="klpsPause()" type="button"><img id="pauseicon2" src="images/pause.png"></button>
-    		</span>
+			<div id="klhspos">
+				<span id="klpsicons">
+					<button id="playiconbutton2" onclick="klpsPlay()" type="button"><img id="playicon2" src="images/play.png"></button>
+    				<button id="pauseiconbutton2" onclick="klpsPause()" type="button"><img id="pauseicon2" src="images/pause.png"></button>
+    			</span>
+    		</div>
 		</span>
 	</div>
 </main>
