@@ -39,7 +39,7 @@
 			cursor: pointer;
 		}
 
-		#open:active {
+		#open:focus {
 			background-color: #000000;
 			color: #ffffff;
 			transform: rotate(150deg);
@@ -92,7 +92,7 @@
 			transition: 0.1s ease-in-out;
 		}
 
-		#close:active {
+		#close:focus {
 			background-color: #000000;
 			color: #ffffff;
 		}
