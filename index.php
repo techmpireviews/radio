@@ -19,7 +19,7 @@
 			z-index: -1;
 		}
 
-		button::active {
+		button:hover {
 			outline: none;
 		}
 
