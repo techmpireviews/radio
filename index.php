@@ -122,9 +122,8 @@
 	<span>
 		<ul id="closeul">
 			<li class="font"><a href="">Home</a></li>
-			<li class="font"><a href="">Basketball Games</a></li>
-			<li class="font"><a href="">Football Games</a></li>
-			<li class="font"><a href="">Baseball Games</a></li>
+			<li class="font"><a href="">Radio</a></li>
+			<li class="font"><a href="">Podcasts</a></li>
 			<li class="font"><button id="close" onclick="close2()">x</button></li>
 		</ul>
 	</span>
