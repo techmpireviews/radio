@@ -237,7 +237,9 @@ position: absolute; left: 50%; transform: translate(-50%); font-size: 35px; font
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border-radius: 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
     }
     </style>
 <main id="main">
