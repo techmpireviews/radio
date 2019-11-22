@@ -3,7 +3,7 @@
 <head>
 	</script>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="/package.json">
+    <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" sizes="512x512" href="images/goldicon.png">
     <link rel="icon" href="images/goldicon.png">	
     <title>Linton Radio App</title>

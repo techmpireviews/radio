@@ -4,6 +4,7 @@
 	<title>Mobile</title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/goldicon.png">
+	<link rel="manifest" href="manifest.json">
     <script>
 	setTimeout(function() {
   document.getElementById('intro').style.display='none'
