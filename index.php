@@ -6,6 +6,16 @@
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" sizes="512x512" href="images/goldicon.png">
     <link rel="icon" href="images/goldicon.png">
+	<script>
+	if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then((reg) => {
+          console.log('Service worker registered.', reg);
+        });
+  });
+}
+	</script>
 	<title>Get Linton Radio App</title>
 </head>
 <body>
